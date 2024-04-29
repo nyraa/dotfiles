@@ -1,0 +1,12 @@
+alias fucking="sudo"
+alias please="sudo"
+alias cls="clear"
+
+# mount
+# C
+alias mountc="sudo mount /dev/nvme1n1p2 /mnt/C"
+alias umountc="sudo umount /mnt/C"
+# D
+alias mountd="sudo mount /dev/nvme0n1p3 ~/Data"
+alias umountd="sudo umount ~/Data"
+
