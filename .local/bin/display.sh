@@ -6,7 +6,7 @@ then
 else
     options=$(autorandr --list)
 
-    selected_option=$(echo "$options" | rofi -dmenu -i -p "Select an display profile")
+    selected_option=$(echo "$options" | rofi -dmenu -i -p "Select a display profile")
 
     if [ -n "$selected_option" ];
     then
