@@ -5,6 +5,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor eDP-1 -d 子 丑 寅 卯 辰
 bspc monitor DP-1 -d 甲 乙 丙 丁 戊
 bspc monitor DP-1-8 -d 甲 乙 丙 丁 戊
+bspc monitor DP-1-1-1 -d 甲 乙 丙 丁 戊
 
 
 ~/.config/polybar/start.sh &
@@ -18,6 +19,9 @@ bspc config focused_border_color "#03BEE6"
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+
+# Rule
+# bspc rule -a Discord state=floating center=true
 
 # Config
 xsetroot -cursor_name left_ptr
