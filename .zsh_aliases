@@ -1,6 +1,7 @@
 alias fucking="sudo"
 alias please="sudo"
 alias cls="clear"
+alias ls="ls -h"
 alias ll="ls -al"
 alias llf="ls -alp | grep -v /"
 alias lld="ls -al | grep '^d'"
