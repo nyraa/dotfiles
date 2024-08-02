@@ -21,7 +21,8 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 # Rule
-# bspc rule -a Discord state=floating center=true
+bspc rule -a discord state=floating center=true
+bspc rule -a "firefox:Toolkit" state=floating
 
 # Config
 xsetroot -cursor_name left_ptr
