@@ -20,7 +20,8 @@ super + slash
 
 # file manager
 super + e
-    nautilus -w
+	alacritty -e ranger
+    # nautilus -w
 
 # make sxhkd reload its configuration files:
 super + Escape
