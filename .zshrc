@@ -56,3 +56,4 @@ zplug load
 eval $(thefuck --alias)
 
 
+. "$HOME/.cargo/env"
