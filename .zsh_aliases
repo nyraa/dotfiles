@@ -6,6 +6,8 @@ alias ll="ls -al"
 alias llf="ls -alp | grep -v /"
 alias lld="ls -al | grep '^d'"
 alias e="ranger"
+alias vim="nvim"
+alias vi="vim"
 
 # mount
 # C
